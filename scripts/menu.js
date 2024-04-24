@@ -1,10 +1,10 @@
 const root= "/WSOA3028A_2302312"
 const menuItems = [
     { name: "Home", href: `${root}/index.html` },
-    { name: "Design", href: "design.html" },
-    { name: "Projects", href: "portfolio.html" },
-    { name: "Blog", href: "blog.html" },
-    { name: "Essays", href: "essays.html" }
+    { name: "Design", href: "/design/index.html" },
+    { name: "Projects", href: "/projects/index.html" },
+    { name: "Blog", href: "/blogs/index.html" },
+    { name: "Essays", href: "/essays/index.html" }
 ]
 function initialize() {
     const nav = document.querySelector("header > nav")
