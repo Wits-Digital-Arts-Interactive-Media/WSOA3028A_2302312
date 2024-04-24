@@ -6,6 +6,10 @@ const menuItems = [
     { name: "Blog", href: `${root}/blogs/index.html` },
     { name: "Essays", href: `${root}/essays/index.html` }
 ]
+function GetRoot()
+{
+    return root;
+}
 function initialize() {
     const nav = document.querySelector("header > nav")
     const ul = document.createElement("ul")
