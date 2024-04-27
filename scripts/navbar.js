@@ -6,7 +6,7 @@ const menuItems = [
     { name: "Blog", href: `${root}/blogs/index.html` },
     { name: "Essays", href: `${root}/essays/index.html` }
 ]
-const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
 
 function initialize() {
     const nav = document.querySelector("header > nav")
@@ -29,13 +29,13 @@ function initialize() {
 
     const footer = document.querySelector("footer")
     // Adds a "Back to top" button on every page footer when the page is big enough to scroll down
-    if (document.body.scrollHeight > window.screen.height) {
+   // if (document.body.scrollHeight > window.screen.height) {
        
         const toTopBut = document.createElement("button")
         toTopBut.setAttribute("onclick", "toTop()")
         toTopBut.innerText = "Back to Top"
         footer.appendChild(toTopBut)
-    }
+    //}
     //append socials
     const socialList = document.createElement("ul")
     const aitch = document.createElement("a")
