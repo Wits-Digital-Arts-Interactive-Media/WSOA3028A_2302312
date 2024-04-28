@@ -9,6 +9,7 @@ const menuItems = [
 
 
 function initialize() {
+    //Adds the Navbar to everypage. Disabling a link if it refers to the current page.
     const nav = document.querySelector("header > nav")
     const ul = document.createElement("ul")
 
@@ -36,7 +37,7 @@ function initialize() {
         toTopBut.innerText = "Back to Top"
         footer.appendChild(toTopBut)
     }
-    //append socials
+    //append social links to footer
     const socialList = document.createElement("ul")
     const aitch = document.createElement("a")
     const itch = document.createElement("li")
