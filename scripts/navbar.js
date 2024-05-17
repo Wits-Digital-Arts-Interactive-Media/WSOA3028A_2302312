@@ -10,7 +10,7 @@ const menuItems = [
 
 function initialize() {
     //Adds the Navbar to everypage. Disabling a link if it refers to the current page.
-    const nav = document.querySelector("header > nav")
+    const nav = document.querySelector("header > div> nav")
     const ul = document.createElement("ul")
     const link = document.createElement("link")
     link.href = "../styles/styleSheet1.css"
