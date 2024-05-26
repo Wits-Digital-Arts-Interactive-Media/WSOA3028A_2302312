@@ -195,3 +195,15 @@ img {
   border-color: #33706A;
   border-radius: 10px;
 }
+button{
+  background-color: var(--darkGray);
+  border-radius: 5px;
+  border-color: var(--Green);
+  color: white;
+  margin:auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  display:flex;
+  text-align: center;
+  font-size: large;
+}
