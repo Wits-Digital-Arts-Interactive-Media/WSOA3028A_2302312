@@ -13,7 +13,7 @@ function initialize() {
     const nav = document.querySelector("header > div> nav")
     const ul = document.createElement("ul")
     const link = document.createElement("link")
-    if (document.title == "Home") { link.href = "./styles/stylesheet1.css" }
+    if (document.title == "Home") { link.href = "/styles/styleSheet1.css" }
     else { link.href = `${root}/styles/styleSheet1.css` }
 
     link.type = "text/css"
