@@ -12,7 +12,7 @@
 footer ul {
   display: flex;
   list-style-type: none;
-  width: 492px;
+  width: 520px;
   margin: auto;
   padding: 10px;
   border-radius: 50px;
@@ -54,7 +54,7 @@ li a:hover {
 }
 
 footer ul {
-  width: 300px;
+  width: 325px;
 }
 
 body {
@@ -73,6 +73,8 @@ li {
   font-weight: 400;
   font-style: normal;
 }
+  
+
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -194,6 +196,8 @@ img {
   border-width: var(--borderWidth);
   border-color: #33706A;
   border-radius: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 button{
   background-color: var(--darkGray);
