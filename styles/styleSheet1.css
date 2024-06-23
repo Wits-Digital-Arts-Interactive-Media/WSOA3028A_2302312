@@ -58,6 +58,10 @@ footer ul {
 }
 
 body {
+  background-image: url("../images/BG.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-color: black;
   margin: 0;
 }
