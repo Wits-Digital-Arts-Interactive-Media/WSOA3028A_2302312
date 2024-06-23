@@ -212,7 +212,7 @@ img {
   padding: 10px;
   border-style: solid;
   border-width: var(--borderWidth);
-  border-color: #33706A;
+  border-color: var(--darkGreen);
   border-radius: 10px;
   text-align: justify;
   text-justify: inter-word;
